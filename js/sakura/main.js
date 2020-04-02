@@ -167,6 +167,7 @@ pointer-events: none;}*/
 				var canvasSnow = document.getElementById('canvas_snow');
 				canvasSnow.width = window.innerWidth;
 				canvasSnow.height = window.innerHeight;
+				canvasSnow.style.z-index = "999999";
 			}
 
 			img.onload = function() {
